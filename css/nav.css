@@ -125,3 +125,17 @@ nav {
 	display: compact;
 	
 }
+#logo {
+	background-image: url(../images/logo.png);
+	background-position: left center;
+	float: none;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#logo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+}
