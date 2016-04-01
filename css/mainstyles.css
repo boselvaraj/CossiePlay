@@ -1,0 +1,58 @@
+@import url("nav.css");
+body {
+}
+#header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+}
+body {
+}
+#header {
+	height: 200px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#navbar {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#navbar {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainpic {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#maincontent {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: left;
+	font-size: 18px;
+}
+#footer {
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sidderight{
+	background-color:#e5e4d7;
+	margin:10px;
+	border-radius:5px;
+	padding:20px;
+	font-size:13px;
+	float:right;
+	width:260px;
+}
