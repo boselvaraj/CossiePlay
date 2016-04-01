@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<style type="text/css">
+body,td,th {
+	font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+body {
+	background-color: #646464;
+}
+</style>
+<head>
+<link href="css/nav.css" rel="stylesheet" type="text/css">
+
+<meta charset="utf-8">
+<title>CossiePlay</title>
+</head>
+
+<body>
+<div id="header"><img src="images/banner.png" width="800" height="200" alt="CossiePlay Banner Image"/></div>
+<div id="navbar"> <nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+        <li><a href="party.html">Party</a></li>
+		<li><a href="signup.html">Sign Up</a></li>
+   </ul>
+</nav></div>
+
+<div id="mainpic"><img src="images/mainpic.png" width="800" height="200" alt=""/></div>
+ <div class="sidderight">
+<h2> Announcements</h2>
+<ul>
+  <li>We have some cool things happening that we want people to know about: this month you can purchase 3 drinks for the price of 2 at the bar.</li>
+   <li> First-time party-goers get a 50% discount on entry.</li>
+    <li>If you get a costume custom made, your next party entry is free if you wear that costume.</li>
+    <li>Wear your costume in to KFC on Stanton street and you can get a free drink with a 21-piece bucket.</li> <br>Tell them you’ve been to CossiePlay!
+  
+</ul>
+<h2>Links</h2>
+<ul><a href="https://en.wikipedia.org/wiki/Cosplay">Wikipedia Entry For Cosplay</a><br> 
+<a href="http://www.cosplay.com">World Largest Cosplay Community</a><br>
+ <a href="http://www.cosplaytutorial.com/index.php">Resource For Costumers</a> <br></ul>
+
+</div>
+<div id="maincontent">
+  
+ 
+  <div id="container_demo" >
+	<!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+	<a class="hiddenanchor" id="toregister"></a>
+	<a class="hiddenanchor" id="tologin"></a>
+	<div id="wrapper">
+		<div id="login" class="animate form">
+			<form  action="mysuperscript.php" autocomplete="on"> 
+				<h1 style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif">Log in</h1> 
+				<p> 
+					<label for="username" class="uname" data-icon="u" > Your email or username </label>
+					<input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+				</p>
+				<p> 
+					<label for="password" class="youpasswd" data-icon="p"> Your password </label>
+					<input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+				</p>
+				<p class="keeplogin"> 
+					<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+					<label for="loginkeeping">Keep me logged in</label>
+				</p>
+				<p class="login button"> 
+					<input type="submit" value="Login" /> 
+				</p>
+				<p class="change_link">
+					Not a member yet ?
+					<a href="#toregister" class="to_register">Join us</a>
+				</p>
+			</form>
+		</div>
+
+		<div id="register" class="animate form">
+			<form  action="mysuperscript.php" autocomplete="on"> 
+				<h1 style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif"> Sign up </h1> 
+				<p> 
+					<label for="usernamesignup" class="uname" data-icon="u">Your username</label>
+					<input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
+				</p>
+				<p> 
+					<label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+					<input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mysupermail@mail.com"/> 
+				</p>
+				<p> 
+					<label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+					<input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+				</p>
+				<p> 
+					<label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+					<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+				</p>
+				<p class="signin button"> 
+					<input type="submit" value="Sign up"/> 
+				</p>
+				<p class="change_link">  
+					Already a member ?
+					<a href="#tologin" class="to_register"> Go and log in </a>
+				</p>
+			</form>
+		</div>
+		
+	</div>
+</div>  
+  </div>
+<h1>&nbsp;</h1>
+<div id="footer">Copyright &copy; 2016 CossiePlay</div>
+
+
+</body>
+</html>
